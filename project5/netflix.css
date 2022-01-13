@@ -1,0 +1,96 @@
+body {
+    background-image: url(background_image.jpg);
+    background-color: #0E0E0E;
+
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight:100;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+header {
+    
+    width: 500px;
+    margin: 10px auto;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.form {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 450px;
+    margin: 10px auto;
+    height: 1050px;
+    color: white;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+label {
+    font-size: large;
+    margin-left: 20px;
+    
+}
+
+.form form div {
+    margin-bottom: 40px;
+}
+
+select {
+    width: 400px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: large;
+    color: white;
+    margin-left: 20px;
+}
+
+.checkbox input{
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+}
+
+.gender input {
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.submit {
+    background-color: red;
+    width: 150px;
+    color: white;
+    border-radius: 20px;
+    
+    border: none;
+}
+
+.submitbutton {
+    margin-left: 130px;
+}
