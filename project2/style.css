@@ -1,6 +1,7 @@
 nav {
     background-color: #F7931E;
     height: 190px;
+    position: fixed;
 }
 
 .orta {
