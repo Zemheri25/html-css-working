@@ -4,7 +4,7 @@ body {
 
 .navmain {
     background-color: gray;
-    margin-left: 3cm;
+    margin-left: 135px;
     margin-right: 3cm;
     height: 4cm;
     color: honeydew;
@@ -36,4 +36,113 @@ body {
     background-color: indigo;
     width: 600px;
     margin-left: 400px;
+}
+
+.section1 {
+    
+    height: 310px;
+    width: 575px;
+    margin-left: 3cm;
+    float: left;
+}
+
+.section2 {
+    background-color: rgb(255, 217, 0);
+    float: left;
+    height: 310px;
+    width: 510px;
+    margin-left: 1cm;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.writing {
+    
+    height: 160px;
+    color:gray;
+    padding: 3px 3px 0px;
+    
+}
+
+.pictures {
+    background-color: cornflowerblue;
+    margin-left: 14px;
+}
+
+.picture1 {
+    background-color:green;
+    width: 150px;
+    float: left;
+    height: 140px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.picture2 {
+    background-color:blue;
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+    height: 140px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.picture3 {
+    background-color:red;
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+    height: 140px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.article1 {
+    
+    height: 600px;
+    float: left;
+    width: 320px;
+}
+
+.article2 {
+   
+    height: 600px;
+    float: left;
+    width: 320px;
+    margin-left: 80px;
+}
+
+.article3 {
+    
+    height: 600px;
+    float: left;
+    width: 320px;
+    margin-left: 80px;
+}
+
+.main2 {
+    margin-top: 400px;
+    margin-left: 120px;
+    color: honeydew;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.heading1 {
+    color: honeydew;
+    border-bottom: 3px dotted honeydew;
+}
+
+.resimveacıklama1 {
+    
+    height: 510px;
+}
+
+.footer {
+    background-color: honeydew;
+    height: 75px;
+    width: 100%;
+    color:gray;
+    text-align: center;
 }
