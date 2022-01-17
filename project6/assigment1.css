@@ -1,0 +1,48 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.head1 {
+    border-top: 1px solid black;
+    font-size: 30px;
+    width: 50%;
+    margin: 20px auto;
+    
+}
+
+h1 {
+    font-weight: 400;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.box1 {
+    border-bottom: 1px red solid;
+    margin: 20px 380px;
+    height: 90px;
+    width: 50%;
+
+}
+
+.box1 label{
+    font-size: 20px;
+    
+}
+
+.box1 input {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.box .which {
+    font-size: 25px;
+    padding-top: 20px;
+}
