@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial, sans-serif";
+}
+
+.navbarmain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 ul{
+    display: flex;
+    margin-left: 0rem;
+    
+}
+
+.div1 {
+    
+    width: 20%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.div1 ul li {
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.div1 ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.div1 ul li a:hover {
+   text-decoration: underline;
+}
+
+.div2 {
+    
+    width: 20%;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+   
+}
+
+.div2 ul li {
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.div2 ul{
+    display: flex;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    
+}
+
+.div2 ul li a {
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.div2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.bi {
+    cursor: pointer;
+    margin-top: 0.3rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.div2 ul li button {
+    cursor: pointer;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+    font-weight: 600;
+}
+
+.bi:hover {
+    color: rgb(75, 74, 74);
+}
+
+main img {
+    height: 6rem;
+    width: 50%;
+    display: flex;
+    margin: 0rem auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    width: 40%;
+    height: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+
+}
+
+main input {
+    border-radius: 40px;
+    border: 1px solid rgb(206, 201, 201);
+    height: 3rem;
+    font-size: medium;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    margin-top: 0.8rem;
+}
+
+
+.bi-search {
+    position: relative;
+    top: -2.4rem;
+    left: 2rem;
+    cursor: pointer;
+    opacity: 0.4;
+    width: 1rem;
+    height: 1rem;
+}
+
+.mic {
+    width: 1.5rem;
+    height: 1.8rem;
+    position: relative;
+    top: -3.9rem;
+    left: 16.6rem;
+    cursor: pointer;
+}
+
+.buttons {
+    
+    width: 40%;
+    height: 10rem;
+    margin: 0rem auto;
+    
+}
+
+.buttons button {
+    height: 2.4rem;
+    border: none;
+    width: 20%;
+    font-family: "arial, sans-serif";
+    border-radius: 4px;
+    color: #666666;
+    cursor: pointer;
+    margin-left: 1rem;
+}  
+
+.buttons button:hover {
+    border: 1px solid #AAAAAA;
+}
