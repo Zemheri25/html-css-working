@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3399DB;
+    width: 90%;
+    height: 5rem;
+    margin: 2rem auto;
+    box-shadow: 5px 5px 10px grey;
+    
+    
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+   
+}
+
+header ul li {
+    margin-left: 2rem;
+    align-items: flex-end;
+    list-style: none;
+    margin-top: 1rem;
+    border: 1px solid aqua;
+    border-bottom: none;
+    width: 7rem;
+    text-align: center;
+    height: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 5px aqua;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li:hover {
+    box-shadow: 1px 1px 5px aqua;
+}
+
+.container {
+    
+    width: 70%;
+    margin: 2rem auto;
+    height: 87rem;
+    
+}
+
+.section1 {
+    
+    width: 100%;
+    
+    height: 13rem;
+}
+
+.section1 .article1{
+    
+    width: 30%;
+    height: 13rem;
+    float: left;
+}
+
+.section1 .article2 {
+    
+    float: left;
+    width: 65%;
+    height: 13rem;
+    margin-left: 5%;
+}
+
+.section1 .article1 img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgb(179, 169, 169);
+}
+
+.section1 .article2 img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px rgb(179, 169, 169);
+}
+
+.section2 {
+    
+    width: 100%;
+    margin-top: 2rem;
+    height: 20rem;
+}
+
+.section2 .article1 {
+    
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.section2 .article2 {
+    
+    width: 65%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+}
+
+.head1 {
+    background-color: #3399DB;
+    height: 10%;
+    border-radius: 7px;
+    padding: 0.5rem;
+    
+}
+
+.head1 h3 {
+    color: blue;
+    font-size: x-large;
+    margin-left: 0.5rem;
+    text-shadow: 5px 5px 10px white;
+    
+    
+}
+
+.cerceve {
+    background-color: white;
+    border: 2px solid #3399DB;
+    border-top: none;
+    border-radius: 7px;
+    height: 85%;
+}
+
+.cerceve ul li {
+    list-style: none;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.cerceve ul li a {
+    text-decoration: none;
+    color: rgb(170, 161, 161);
+}
+
+.cerceve ul li:hover {
+    font-size: large;
+}
+
+.article2 h1 {
+    font-size: 2rem;
+}
+
+.article2 p {
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.article2 .post {
+    font-size: 0.8rem;
+    margin-top: 0rem;
+}
+
+.section3 {
+    
+    width: 100%;
+    height: 50rem;
+    margin-top: 2rem;
+}
+
+.section3 .article1 {
+    
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.section3 .cerceve  {
+    height: 50%;
+}
+
+.section3 .head1 {
+    background-color: #3399DB;
+    height: 5%;
+}
+
+.section3 .article2 {
+    
+    height: 100%;
+    width: 65%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -4rem;
+}
+
+.head2 {
+    background-color: orange;
+    width: 100%;
+    height: 3rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head2 {
+    color: rgb(156, 105, 9);
+}
+
+.head2 h1 {
+    margin-left: 2rem;
+    
+}
+
+.cerceve1 {
+    
+    width: 99.3%;
+    height: 80%;
+    border: 2px solid orange;
+    border-top: none;
+    margin-top: -2rem;
+}
+
+.cerceve1 p {
+    letter-spacing: 1.4px;
+    color: grey;
+}
+
+.cerceve1 ul{
+    margin-left: 2rem;
+    color: grey;
+}
+.cerceve1 ol{
+    margin-left: 2rem;
+    color: grey;
+}
+
+.cerceve1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cerceve1 h1 {
+    color: grey;
+}
+
+.footer {
+    background-color: orange;
+    margin-top: -3rem;
+    height: 3rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer p {
+    color: white;
+}
+
+.section4 {
+    background-color: red;
+    width: 30%;
+    height: 20rem;
+    margin-top: -20rem;
+}
+
+.section4 ul {
+    margin-top: -20rem;
+}
+.section4 .head1 h1{
+    margin-top: -20rem;
+}
