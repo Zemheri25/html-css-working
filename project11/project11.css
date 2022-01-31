@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f1f1f1;
+}
+
+
+.clarusway {
+   background-image: url(./image1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: 'Lato', sans-serif;
+   font-weight: 900;
+   font-size: 3rem;
+   text-align: center;
+   height: 800px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.7;
+   letter-spacing: 5px;
+}
+
+.clarusway h1 {
+    background-color: #2c2b2b;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    outline: 10px inset #a253a2;
+    outline-offset: 20px;
+    color: white;
+    font-size: 4rem;
+    padding: 50px;
+    padding-top: 20px;
+    opacity: 1;
+    font-weight: 500;
+    height: 3rem;
+}
+
+.writing1 {
+    font-family:'Times New Roman';
+    font-size: 17.6px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    height: 18rem;
+    text-align: center;
+    
+}
+
+.writing1 h2 {
+    padding: 50px 10px 10px;
+    opacity: 0.7;
+    
+}
+
+.writing1 p {
+    padding: 10px 50px 10px;
+    opacity: 0.7;
+    font-size: medium;
+}
+
+.clarusway2 {
+    background-image: url(./women.jpg);
+    background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 800px;
+   opacity: 0.88;
+
+}
+
+.clarusway2 img {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    padding-left: 20rem;
+    padding-top: 20rem;
+    opacity: 0.6;
+    
+    
+    
+}
+
+.writing2 {
+    background-color: rgb(40, 46, 52);
+    color:rgb(221, 221, 221);
+    font-family: sans-serif;
+    height: 15rem;
+    text-align: center;
+}
+
+.writing2 h2 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.writing2 p {
+    line-height: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 0.9rem;
+}
+
+.clarusway3 {
+    background-image: url(./teamwork.jpg);
+    height: 20rem;
+    width: 100%;
+    opacity: 0.8;
+    background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: 'Lato', sans-serif;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.clarusway3 h1 {
+    background-color: #2c2b2b;
+    outline: 7px inset #a253a2;
+    outline-offset: 10px;
+    color: white;
+    font-size: 3rem;
+    height: 3rem;
+    width: 50%;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 4rem;
+    padding-top: 1rem;
+    font-weight: 400;
+    
+}
+
+.writing1_1 {
+    height: 15rem;
+
+}
+
+.writing1_1 {
+    line-height: 1.7rem;
+}
+
+.clarusway4 {
+   background-image: url(./workingman.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: 'Lato', sans-serif;
+   height: 25rem;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.75;
+    
+}
+
+.clarusway4 h1 {
+    background-color: #070707;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    outline: 8px inset #833383;
+    outline-offset: 5px;
+    color: white;
+    font-size: 2.6rem;
+    padding: 20px;
+    padding-top: 15px;
+    opacity: 1;
+    font-weight: 500;
+    height: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.writing2_1 {
+    background-color: rgb(73, 73, 73);
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.clarusway5 {
+    background-image: url(./pc.jpg);
+    height: 30rem;
+    background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: 'Lato', sans-serif;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.73;
+   margin-bottom: 4rem;
+}
+
+.clarusway5 h1 {
+    background-color: #070707;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    outline: 8px inset #833383;
+    outline-offset: 5px;
+    color: white;
+    
+    font-size: 2.6rem;
+    padding: 20px;
+    padding-top: 15px;
+    opacity: 1;
+    font-weight: 500;
+    height: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+@media screen and (min-width:300px) and (max-width:770px) {
+    .clarusway h1 {
+        font-size: 1rem;
+        padding:10px;
+        height: 2rem;
+        padding-top: 1rem;
+    }
+
+    .writing1 {
+        font-size: 0.6rem;
+        height: 30rem;
+    }
+
+    .writing1 p {
+        font-size: 0.8rem;
+    }
+
+    .clarusway2 img {
+        height: 4rem;
+        width: 60%;
+        padding-left: 20%;
+    }
+
+    .writing2 {
+        font-size: 0.7rem;
+        height: 20rem;
+    }
+
+    .writing2 p {
+        font-size: 0.7rem;
+    }
+
+    .clarusway3 h1 {
+        font-size: 1rem;
+        height: 1.7rem;
+    }
+    
+    .clarusway4 h1 {
+        font-size: 1rem;
+        height: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .writing2_1 {
+        height: 20rem;
+    }
+
+    .clarusway5 h1 {
+        font-size: 90%;
+        font-weight: 600;
+        height: 1rem;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (min-width:770px) and (max-width:1010px) {
+    .clarusway h1 {
+        font-size: 2rem;
+        padding: 15px;
+        height: 3rem;
+        padding-top: 1rem;
+    }
+
+    .writing1 {
+        font-size: 0.8rem;
+        height: 20rem;
+    }
+
+    .writing1 p {
+        font-size: 1rem;
+    }
+
+    .clarusway2 img {
+        height: 5rem;
+        width: 60%;
+        padding-left: 20%;
+    }
+
+    .writing2 {
+        font-size: 1rem;
+        height: 18rem;
+    }
+
+    .writing2 p {
+        font-size: 0.9rem;
+        padding-bottom: 10rem;
+    }
+
+    .clarusway3 h1 {
+        font-size: 1rem;
+        height: 1.7rem;
+        letter-spacing: 3px;
+        width: 35%;
+    }
+
+    .clarusway4 h1 {
+        font-size: 2rem;
+        height: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .writing2_1 {
+        height: 17rem;
+    }
+
+    .clarusway5 h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        height: 2rem;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+}
