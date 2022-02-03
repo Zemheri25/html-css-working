@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+main {
+    
+    width: 50%;
+    height: 24rem;
+    margin: 7rem auto;
+    display: flex;
+    
+}
+
+.box {
+    width: 33.3%;
+    height: 100%;
+    color: white;
+}
+
+.box1 {
+    background-color: #E38826;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box2 {
+    background-color: #006970;
+}
+
+.box3 {
+    background-color: #004241;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box img {
+    padding-left: 2rem ;
+    padding-top: 2rem;
+}
+
+.box h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.box p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+    font-weight: 600;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+.button {
+    border: none;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 7rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button1 {
+    color: #E38826;
+}
+
+.button2 {
+    color: #006970;
+}
+
+.button3 {
+    color: #004241;
+}
+
+.button1:hover {
+    background-color: #E38826;
+    color: white;
+    border: 1px solid white;
+}
+
+.button2:hover {
+    background-color: #006970;
+    color: white;
+    border: 1px solid white;
+}
+
+.button3:hover {
+    background-color: #004241;
+    color: white;
+    border: 1px solid white;
+}
